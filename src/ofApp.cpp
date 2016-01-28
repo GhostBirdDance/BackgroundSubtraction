@@ -4,9 +4,11 @@
 void ofApp::setup(){
 
     grabber.initGrabber(ofGetScreenWidth(), ofGetScreenHeight());
-    background.setLearningTime(45);
+    background.setLearningTime(1000);
     background.setThresholdValue(30);
-
+    
+    mask.setupShaderFromFile(GL_FRAGMENT_SHADER, "mask.frag");
+    mask.linkProgram();
 }
 
 //--------------------------------------------------------------
@@ -23,10 +25,11 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    
-    //grabber.draw(0,0);
+    mask.begin();
+    mask.setUniformTexture("mask", thresholded.getTexture(), 1);
+    grabber.draw(0,0);
+    mask.end();
     thresholded.draw(0,0);
-
 }
 
 //--------------------------------------------------------------

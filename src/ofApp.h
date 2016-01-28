@@ -25,5 +25,6 @@ class ofApp : public ofBaseApp{
     ofxCv::RunningBackground background;
     ofImage thresholded;
 
+    ofShader mask;
 		
 };
