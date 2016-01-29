@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "17404F515C403E78DC39D1E66EEC0942F7A0A318" : 0,
-    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : 0
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : 0,
+    "B7CCA6A8C889ED4C803FBF307564FD139754E943" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9CB440ED-A2AA-4E66-96E9-ECBBF2CAC1AD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "17404F515C403E78DC39D1E66EEC0942F7A0A318" : "BackgroundSubtraction\/",
-    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : "..\/..\/addons\/ofxCv"
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : "..\/..\/addons\/ofxCv",
+    "B7CCA6A8C889ED4C803FBF307564FD139754E943" : "..\/..\/addons\/ofxFX"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "BackgroundSubtraction",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kylemcdonald\/ofxCv.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37526DA425E5430474A14FBFA1BC4525160B5FC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/patriciogonzalezvivo\/ofxFX.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B7CCA6A8C889ED4C803FBF307564FD139754E943"
     }
   ]
 }

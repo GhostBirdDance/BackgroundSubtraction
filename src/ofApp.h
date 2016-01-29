@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxOpenCv.h"
 #include "ofxCv.h"
+#include "ofxSwapBuffer.h"
 
 class ofApp : public ofBaseApp{
 
@@ -20,11 +21,13 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-    
+        void renderFrame(int width, int height);
+
     ofVideoGrabber grabber;
     ofxCv::RunningBackground background;
     ofImage thresholded;
 
-    ofShader mask;
+    ofShader mask, automataShader;
+    ofxSwapBuffer buffer;
 		
 };

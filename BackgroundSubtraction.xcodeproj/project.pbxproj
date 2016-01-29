@@ -266,6 +266,8 @@
 		F38AB91361456BF84AB04DD1 /* border_interpolate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = border_interpolate.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/device/border_interpolate.hpp; sourceTree = SOURCE_ROOT; };
 		F3C32677C12BD67CF9F8980E /* Kalman.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Kalman.h; path = ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Kalman.h; sourceTree = SOURCE_ROOT; };
 		F7269F96AC34A2B44A680D03 /* ofxCvFloatImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCvFloatImage.h; path = ../../../addons/ofxOpenCv/src/ofxCvFloatImage.h; sourceTree = SOURCE_ROOT; };
+		F833984A1C5AE3500023249E /* automata.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = automata.frag; sourceTree = "<group>"; };
+		F833984B1C5AE3AA0023249E /* ofxSwapBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxSwapBuffer.h; path = ../../../addons/ofxFX/src/ofxSwapBuffer.h; sourceTree = "<group>"; };
 		F886EBA3F8F05C7F74633933 /* devmem2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = devmem2d.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/devmem2d.hpp; sourceTree = SOURCE_ROOT; };
 		F8D2AEF91C59BC7700397CE4 /* backgroundSegDebug.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = backgroundSegDebug.app; sourceTree = "<group>"; };
 		F8D2AEFA1C59BC7700397CE4 /* BackgroundSubtractionDebug.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = BackgroundSubtractionDebug.app; sourceTree = "<group>"; };
@@ -675,6 +677,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				F833984B1C5AE3AA0023249E /* ofxSwapBuffer.h */,
 				6025FAF6414C2CA589764D26 /* ofxCv */,
 				A0B90D3B0ADB9C1716816714 /* ofxOpenCv */,
 			);
@@ -860,6 +863,7 @@
 			children = (
 				F8D2AEFC1C59BC7700397CE4 /* .gitkeep */,
 				F8D2AEFD1C59BC7700397CE4 /* mask.frag */,
+				F833984A1C5AE3500023249E /* automata.frag */,
 			);
 			path = data;
 			sourceTree = "<group>";
